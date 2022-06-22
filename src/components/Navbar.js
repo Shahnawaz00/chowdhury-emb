@@ -8,7 +8,6 @@ export const Navbar = () => {
 
 
 //   styles
-  const h1Styles = 'text-3xl font-light'
   const liStyles = 'px-5 text-brown-3 hover:text-brown-5 duration-300 '
 
   return (
