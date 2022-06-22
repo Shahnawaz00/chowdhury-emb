@@ -1,36 +1,20 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
+import embLogo from '../images/embLogo.png';
 
 export const Navbar = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
 
 
-//   styles 
+//   styles
   const h1Styles = 'text-3xl font-light'
-  const liStyles = 'px-5 text-brown-3 hover:text-brown-5 duration-300 ' 
+  const liStyles = 'px-5 text-brown-3 hover:text-brown-5 duration-300 '
 
   return (
-    // <div className={mainStyles} >
-    //     <h1 className={h1Styles} >
-    //         Chowdhury MFG
-    //     </h1>
-    //     <nav className={navStyles}>
-    //         <ul className={ulStyles} >
-    //             <a href="#home"><li className={liStyles}>About</li></a>
-    //             <a href="#about"><li className={liStyles}>Our machinery</li></a>
-    //             <a href="#skills"><li className={liStyles}>Pricing</li></a>
-    //             <a href="#contact"><li className={liStyles} >Contact us </li></a>
-    //         </ul>
-            
-    //         </nav> 
-            
-    // </div>
-    <div className="flex items-center justify-between bg-slate-50 py-3 sm:py-8 px-5 sm:px-10 tracking-wider fixed z-10 w-full">
+    <div className="flex items-center justify-between bg-slate-50 py-3 sm:py-5 px-5 sm:px-10 tracking-wider fixed z-10 w-full">
       <Link to="/">
-        <h1 className={h1Styles} >
-             Chowdhury
-        </h1>
+        <img src={embLogo} alt="" className=' pl-3 sm:pl-10  w-full h-full' />
       </Link>
       <nav >
         <section className="MOBILE-MENU flex lg:hidden ">

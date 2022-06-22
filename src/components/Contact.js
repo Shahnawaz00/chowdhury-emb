@@ -2,7 +2,7 @@ import React, {useMemo} from 'react'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 
 export const Contact = () => {
-    // maps code 
+    // maps code
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: 'AIzaSyCRfbqC9p5BwgASKvPmhi9kj9HseMMhwWA'
       })
@@ -12,9 +12,9 @@ export const Contact = () => {
       const containerStyle = {
         width: '50vw',
         height: '50vh'
-      }; 
+      };
 
-    //   return 
+    //   return
       return (
         <div className='sm:pt-20 pt-14  bg-slate-50 tracking-wider '>
           <div className='w-full sm:mt-5 p-7 sm:p-10 bg-brown-5 flex flex-col items-center'>
@@ -39,8 +39,8 @@ export const Contact = () => {
                     United Arab Emirates
                 </p>
             </div>
-              <GoogleMap 
-              zoom={15} 
+              <GoogleMap
+              zoom={15}
               center={center}
                mapContainerStyle={containerStyle}
                >
@@ -48,8 +48,6 @@ export const Contact = () => {
               </GoogleMap>
           </div>
         </div>
-        
+
   )
 }
-        
-
