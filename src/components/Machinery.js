@@ -5,7 +5,7 @@ import swf from '../images/swf.png'
 
 export const Machinery = () => {
   return (
-    <div className='  pt-10 sm:pt-20 tracking-wider  ' >
+    <div className='  pt-16 sm:pt-20 tracking-wider  ' >
      <div className='flex flex-col pt-5  content-center items-center' >
       <div className="w-full bg-brown-5 flex flex-col items-center p-7 sm:p-10">
       <h1 className='text-slate-50 text-3xl' >Our Machinery</h1>
@@ -29,4 +29,3 @@ export const Machinery = () => {
     </div>
   )
 }
-

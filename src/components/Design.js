@@ -18,7 +18,7 @@ export const Design = () => {
 
       };
   return (
-    <div className='sm:pt-20 pt-14 pb-28  bg-white tracking-wider ' >
+    <div className='pt-20  pb-28  bg-white tracking-wider ' >
         <div className='w-full sm:mt-5 p-7 sm:p-10 bg-brown-5 flex flex-col items-center'>
           <h2 className='text-slate-50 text-3xl'> Our Design</h2>
         </div>

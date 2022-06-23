@@ -16,7 +16,7 @@ export const Contact = () => {
 
     //   return
       return (
-        <div className='sm:pt-20 pt-14  bg-slate-50 tracking-wider '>
+        <div className='pt-20   bg-slate-50 tracking-wider '>
           <div className='w-full sm:mt-5 p-7 sm:p-10 bg-brown-5 flex flex-col items-center'>
             <h2 className='text-slate-50 text-3xl'> Contact us</h2>
           </div>
