@@ -4,7 +4,7 @@ import md from '../images/md.png'
 
 export const About = () => {
   return (
-    <div className='pt-20  leading-loose tracking-wide'>
+    <div className='pt-28  leading-loose tracking-wide'>
      <div className='flex pb-40 flex-col lg:flex-row p-8 sm:p-20  justify-between bg-brown-5 text-slate-50' >
         <div className='pt-10 ' >
           <h3 className='mb-5 text-2xl text-brown-1 tracking-wider ' >About Us</h3>
