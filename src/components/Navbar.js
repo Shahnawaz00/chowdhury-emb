@@ -45,14 +45,17 @@ export const Navbar = () => {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
-                <Link to="/about">About</Link>
+            <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
+                <Link to="/">Home</Link>
               </li>
               <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
                 <Link to="/machinery">Our Machinery</Link>
               </li>
               <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
                 <Link to="/design">Our Design</Link>
+              </li>
+              <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
+                <Link to="/about">About</Link>
               </li>
               <li onClick={() => setIsNavOpen((prev) => !prev)} className={liStyles}>
                 <Link to="/contact">Contact</Link>
@@ -62,14 +65,17 @@ export const Navbar = () => {
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li className={liStyles} >
-            <Link to="/about">About</Link>
+        <li className={liStyles} >
+            <Link to="/">Home</Link>
           </li>
           <li className={liStyles} >
             <Link to="/machinery">Our Machinery</Link>
           </li>
           <li className={liStyles} >
             <Link to="/design">Our Design</Link>
+          </li>
+          <li className={liStyles} >
+            <Link to="/about">About</Link>
           </li>
           <li className={liStyles} >
             <Link to="/contact">Contact</Link>

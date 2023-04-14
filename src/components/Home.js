@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import homeimg from '../images/homeimg.png'
 import homeimg2 from '../images/homeimg2.png'
+import homeimg3 from '../images/homeimg3.png'
 import design from '../images/design.png'
 import machine from '../images/machine.png'
 import money from '../images/money.png'
@@ -15,9 +16,11 @@ export const Home = () => {
     <div className='pt-12 tracking-wide leading-loose' >
       <div>
       {/* desktop image  */}
-       <img src={homeimg} className=' hidden sm:flex ' alt="embroidery" />
+       <img src={homeimg} className='mt-10 hidden xl:hidden sm:flex  ' alt="embroidery" />
        {/* mobile image  */}
-       <img src={homeimg2} className=' sm:hidden flex ' alt="embroidery" />
+       <img src={homeimg2} className='mt-10 sm:hidden flex ' alt="embroidery" />
+       {/* 4k image  */}
+       <img src={homeimg3} className='mt-10 hidden xl:flex ' alt="embroidery" />
       </div>
       {/* cards  */}
       <div className='flex bg-brown-3 flex-wrap justify-around  ' >
