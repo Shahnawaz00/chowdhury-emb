@@ -6,7 +6,6 @@ import { About } from './components/About';
 import {Machinery} from "./components/Machinery";
 import {Design} from "./components/Design";
 import  {Contact}  from "./components/Contact";
-import { Footer } from "./components/Footer";
 
 
 function App() {
